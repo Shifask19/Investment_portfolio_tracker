@@ -1,0 +1,23 @@
+# Maven compiled output
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Do NOT commit real credentials
+# application.properties has DB password — we keep it but with placeholders
+# If you want to be extra safe, uncomment the line below:
+# src/main/resources/application.properties
+
+# Log files
+*.log
+logs/
